@@ -1,0 +1,110 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Local databases
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# NetShield local database
+data/netshield.db
+
+# ==========================================
+# Raw dataset
+# ==========================================
+
+# Do not upload the large raw UNSW-NB15 dataset
+data/raw/*.csv
+
+# Keep the raw-data directory in Git
+!data/raw/.gitkeep
+
+# ==========================================
+# Python / ML generated files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+
+# Jupyter generated files
+*.ipynb_checkpoints
+
+# ==========================================
+# OS generated files
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==========================================
+# VS Code / IDE
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+# ==========================================
+# Build / distribution
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Coverage / testing
+# ==========================================
+
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Streamlit
+# ==========================================
+
+.streamlit/secrets.toml
